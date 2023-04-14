@@ -10,7 +10,7 @@ variable "image_id" {
 
 variable "instance_type" {
   type    = string
-  default = "t2.large"
+  default = "r6i.xlarge"
 }
 
 variable "key_name" {
@@ -37,3 +37,4 @@ variable "host_ip" {
   description = "Trento server internal ip"
   type        = string
 }
+
