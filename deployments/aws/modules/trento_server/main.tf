@@ -10,7 +10,7 @@ resource "aws_instance" "trento_server" {
 
   root_block_device {
     volume_type = "gp2"
-    volume_size = "20"
+    volume_size = "60"
   }
 
   volume_tags = {
@@ -22,3 +22,4 @@ resource "aws_instance" "trento_server" {
     Workspace = var.deployment_name
   }
 }
+
